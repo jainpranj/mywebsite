@@ -1,0 +1,60 @@
+<section id="sectionAbout">
+
+	<div class="container">
+		<div class="sectionTitle">
+			<h1>I'm Pranjal</h1>
+			<span>About me</span>
+		</div>
+
+		<div class="row">
+			<div class="col-md-6 col-sm-12 col-xs-12 story">
+				<h2>Hello!</h2>
+				<p>My name is Pranjal Jain. I am a passionate Software developer, currently pursuing my graduate Program in Information Systems  at Northeastern University, Boston. </p>
+
+				<p> I am highly organized and detail-oriented software engineer with 6 years of experience in JAVA and Adobe Experience Manager.
+					I have worked on different phases of software development such as requirement analysis, designing, programming and unit testing.
+					I have strong analytical and problem-solving skills with a capability to work individually and in the team.
+					I emphasize on broadening my knowledge by continuously learning new technologies and challenging myself by accepting work beyond my comfort zone.
+
+				</p>
+			</div>
+
+			<div class="col-md-6 col-sm-12 col-xs-12 skills">
+
+				<div id="bookListWrapper">
+
+				<form role="form">
+					<div class="form-group">
+						<input type="text" class="form-control" placeholder="Skills"
+							   ng-model="searchStr"/>
+						<h5>* Please enter your desired skill set</h5>
+					</div>
+				</form>
+				<ul class="list-unstyled">
+					<li class="book" ng-repeat="book in books | filter:searchStr"
+						style="background: white url('imgs/{{book.imgUrl}}') no-repeat">
+						<div class="book-details clearfix">
+							<h3>{{book.name}}</h3>
+
+							<ul class="list-unstyled list-inline">
+								<li>Rating: {{book.rating}}</li>
+								<!--<div class="progress">
+									<div class="progress-bar" role="progressbar" aria-valuenow={{book.rating}} ng-style="{width:{{book.rating}}%}" aria-valuemin="0" aria-valuemax="100">
+									</div>
+								</div>-->
+
+							</ul>
+							<p>{{book.content}}</p>
+
+						</div>
+					</li>
+				</ul>
+				</div>
+
+
+
+			</div>
+		</div>
+	</div>
+
+</section>
