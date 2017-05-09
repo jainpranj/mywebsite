@@ -22,7 +22,7 @@
 }
 .set-font-size{
 	font-size: 18px!important;
-	color: #00c6c6 !important;
+	color: #f00984 !important;
 }
 .none {
 	text-decoration: none;
@@ -85,7 +85,7 @@ a:hover{
   width: 100%;
   height: 100%;
   border-radius: 50%;
-  background-color: #31b0d5;/*#ffd504;*/
+  background-color: #E840AA;/*#ffd504;*/
   opacity: 0.6;
   position: absolute;
   top: 0;
@@ -178,12 +178,12 @@ a:hover{
   	border:1px solid transparent;
 }
 .navbar li a:hover{
-	border-bottom: 1px solid #31b0d5;/*#ffd504;*/
-	color: #31b0d5;/*#ffd504;*/
+	border-bottom: 1px solid #E840AA;/*#ffd504;*/
+	color: #E840AA;/*#ffd504;*/
 }
 .navbar li.active a {
-	border-bottom: 1px solid #31b0d5;/*#ffd504;*/
-	color: #31b0d5;/*#ffd504;*/
+	border-bottom: 1px solid #E840AA;/*#ffd504;*/
+	color: #E840AA;/*#ffd504;*/
 }
 .navbar-toggle {
 	font-size: 30px;
@@ -217,7 +217,7 @@ a:hover{
 	letter-spacing: 2px;
 	font-size: 125px;
 	font-weight: 700;
-	color: #31b0d5; /*#ffd504;*/
+	color: #E840AA; /*#ffd504;*/
 	font-family: "Poppins", sans-serif;
 	margin-bottom: 15px;
 }
@@ -226,7 +226,7 @@ a:hover{
 	font-weight: 400;
 	font-family: "Poppins", sans-serif;
 	letter-spacing: 1px;
-	color: #31b0d5;/*#ffd504;*/
+	color: #E840AA;/*#ffd504;*/
 	margin-bottom: 26px;
 	text-transform: uppercase;
 }
@@ -366,7 +366,7 @@ a:hover{
 	padding-right: 130px;
 }
 .resume-right:before{
-	background-color: #31b0d5;/*#ffd504;*/
+	background-color: #E840AA;/*#ffd504;*/
 	opacity: .5;
     content: '';
     height: calc(100% + 54px);
@@ -383,7 +383,7 @@ a:hover{
     height: 16px;
     border-radius: 100%;
     position: absolute;
-    border: 2px solid #31b0d5;/*#ffd504;*/
+    border: 2px solid #E840AA;/*#ffd504;*/
     background-color: transparent;
     left: -75px;
     content: '';
@@ -394,7 +394,7 @@ a:hover{
     border-radius: 100%;
     position: absolute;
     border: 0;
-    background-color: #31b0d5;/*#ffd504;*/
+    background-color: #E840AA;/*#ffd504;*/
     left: -75px;
     content: '';
 }
@@ -431,11 +431,11 @@ a:hover{
 .button2 {
 	background-color: white;
 	color: black;
-	border: 2px solid #31b0d5;
+	border: 2px solid #E840AA;
 }
 
 .button2:hover {
-	background-color: #31b0d5;
+	background-color: #E840AA;
 	color: white;
 }
 
@@ -465,7 +465,7 @@ a:hover{
 }
 .is-checked{ 
 	color: #31b0d5 !important;/*#ffd504 !important;*/
-	border-bottom: 1px solid #31b0d5;/*#ffd504;*/
+	border-bottom: 1px solid #E840AA;/*#ffd504;*/
 }
 .mGrid img{
 	width: 100%;
@@ -510,7 +510,7 @@ a:hover{
 	opacity: 1;
 }
 .grid-item a:hover h6{
-	color:#31b0d5;/*#ffd504;*/
+	color:#E840AA;/*#ffd504;*/
 }
 .grid-item h4 {
 	letter-spacing: 1px;
@@ -605,15 +605,15 @@ a:hover{
 	background-color: transparent;
 }
 .clients .col-md-4:hover{
-	background-color: #31b0d5;
+	background-color: #E840AA;
 }
 .clients-box-top{
-	border-right: 1px solid #31b0d5;
-	border-bottom: 1px solid #31b0d5;
+	border-right: 1px solid #E840AA;
+	border-bottom: 1px solid #E840AA;
 	padding: 25px 0px;
 }
 .clients-box-bot{
-	border-right: 1px solid #31b0d5;
+	border-right: 1px solid #E840AA;
 	padding: 25px 0px;
 }
 .last-client{
@@ -670,7 +670,7 @@ a:hover{
 }
 .category{
 	border-radius: 25px;
-	background-color: #31b0d5;
+	background-color: #E840AA;
 	height: 25px;
 	width: 25px;
 	z-index: 99;
@@ -859,7 +859,7 @@ ul.errorMessages li {
 	-moz-transition: all 0.3s ease-in-out;
 }
 .fIcons span:hover{
-	color:#31b0d5;
+	color:#E840AA;
 }
 .fIcons a:hover, .fIcons a:focus{
 	text-decoration: none;
@@ -910,11 +910,11 @@ body{
 }
 .clients-box-top{
 	border-right: 0;
-	border-bottom: 1px solid #31b0d5;
+	border-bottom: 1px solid #E840AA;
 	padding: 25px 0px;
 }
 .clients-box-bot{
-	border-bottom: 1px solid #31b0d5;
+	border-bottom: 1px solid #E840AA;
 	border-right: 0;
 	padding: 25px 0px;
 }
@@ -1019,7 +1019,7 @@ body{
 	}
 
 	.resume-right:before {
-		background-color: #31b0d5;
+		background-color: #E840AA;
 		opacity: .5;
 		content: '';
 		height: calc(100% + 146px);
@@ -1038,7 +1038,7 @@ body{
 		height: 16px;
 		border-radius: 100%;
 		position: absolute;
-		border: 2px solid #31b0d5;
+		border: 2px solid #E840AA;
 		background-color: transparent;
 		left: -23px;
 		content: '';
@@ -1051,7 +1051,7 @@ body{
 		border-radius: 100%;
 		position: absolute;
 		border: 0;
-		background-color: #31b0d5;
+		background-color: #E840AA;
 		left: -23px;
 		content: '';
 		top: -87px;
@@ -1077,12 +1077,12 @@ body{
 
 	.clients-box-top {
 		border-right: 0;
-		border-bottom: 1px solid #31b0d5;
+		border-bottom: 1px solid #E840AA;
 		padding: 25px 0px;
 	}
 
 	.clients-box-bot {
-		border-bottom: 1px solid #31b0d5;
+		border-bottom: 1px solid #E840AA;
 		border-right: 0;
 		padding: 25px 0px;
 	}
