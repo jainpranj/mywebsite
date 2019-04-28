@@ -8,7 +8,7 @@ myApp.config(function($routeProvider) {
     })
     .when("/about", {
       templateUrl: "partials/about.html",
-      controller: "aboutCtrl"
+      controller: "BookListCtrl"
     })
     .when("/exp", {
       templateUrl: "partials/experience.html",
