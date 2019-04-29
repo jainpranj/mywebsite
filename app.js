@@ -34,37 +34,46 @@ myApp.config(function($routeProvider) {
 myApp.factory("bookService", function() {
   var books = [
     {
+      name: "React, Redux, Webpack",
+    },
+    {
+      name: "AngularJS, NodeJS, HapiJS",
+    },
+    {
+      name: "Docker, Traefik, Vault"
+    },
+    {
       name: "Java, JavaEE"
+    },
+    {
+      name: "Consul, AWS, Google Cloud Platform"
+    },
+    {
+      name: "HTML5, CSS3, REST, Apigee"
+    },
+    {
+      name: "ES6, jQuery, GraphQL"
+    },
+    {
+      name: "Apache Kafka, Datadog, Apache Spark",
+    },
+    {
+      name: "Redis, MongoDB, Neo4j"
+    },
+    {
+      name: "SQL, Hive, Hadoop"
+    },
+    {
+      name: "Jenkins, Git, Splunk"
     },
     {
       name: "Python, Shell Scripting, R"
     },
     {
-      name: "HTML5, CSS3"
-    },
-    {
-      name: "Java Script, Jquery"
-    },
-    {
-      name: "Angular JS , NodeJS"
-    },
-    {
-      name: "AWS, Google Cloud Platform"
+      name: "Azure Machine learning, Tableau, luigi"
     },
     {
       name: "Spring MVC, Adobe Experience Manager"
-    },
-    {
-      name: "Hadoop, Apache Spark, Pig , Hive"
-    },
-    {
-      name: "Redis,Mongo DB, Neo4j"
-    },
-    {
-      name: "Jenkins, Docker, Git"
-    },
-    {
-      name: "Azure Machine learning, Tableau, luigi"
     }
   ];
 
