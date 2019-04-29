@@ -43,25 +43,22 @@ myApp.factory("bookService", function() {
       name: "Docker, Traefik, Vault"
     },
     {
-      name: "Java, JavaEE"
-    },
-    {
-      name: "Consul, AWS, Google Cloud Platform"
+      name: "Java, JavaEE, ES6"
     },
     {
       name: "HTML5, CSS3, REST, Apigee"
     },
     {
-      name: "ES6, jQuery, GraphQL"
+      name: "jQuery, GraphQL, SQL"
     },
     {
-      name: "Apache Kafka, Datadog, Apache Spark",
+      name: "Consul, AWS, Google Cloud Platform, Hadoop, Hive"
+    },
+    {
+      name: "Apache Kafka, Datadog, Spark",
     },
     {
       name: "Redis, MongoDB, Neo4j"
-    },
-    {
-      name: "SQL, Hive, Hadoop"
     },
     {
       name: "Jenkins, Git, Splunk"
@@ -70,10 +67,7 @@ myApp.factory("bookService", function() {
       name: "Python, Shell Scripting, R"
     },
     {
-      name: "Azure Machine learning, Tableau, luigi"
-    },
-    {
-      name: "Spring MVC, Adobe Experience Manager"
+      name: "Azure Machine learning, Tableau, luigi, Spring MVC, Adobe Experience Manager"
     }
   ];
 
